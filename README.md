@@ -1,2 +1,2 @@
 # BenWhiteXXII.github.io
-My website but deployed correctly this time
+My website actually deployed. Go [check it out!](BenWhiteXXII.github.io)
