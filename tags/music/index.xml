@@ -6,16 +6,15 @@
     <description>Recent content in music on INSCRIPTION AT SALONAE</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Tue, 27 Jun 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://BenWhiteXXII.github.io/tags/music/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 27 Jun 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://BenWhiteXXII.github.io/tags/music/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>First Steps With LMMS</title>
       <link>https://BenWhiteXXII.github.io/blog/first-steps-with-lmms/</link>
       <pubDate>Tue, 27 Jun 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://BenWhiteXXII.github.io/blog/first-steps-with-lmms/</guid>
       <description>&lt;p&gt;I recently decided to start recording some of the songs I make with my acoustic guitar.
 The problem is that with my current setup anything I record sounds like shit.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>
