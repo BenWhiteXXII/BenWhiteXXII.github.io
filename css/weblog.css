@@ -20,7 +20,7 @@ a:hover {
 }
 
 h1, h2, h3, h4 {
-  color: var(--joshin-primary-color-500);  
+  color: var(--joshin-primary-color-500);
 }
 
 img {
@@ -117,7 +117,7 @@ nav ul > li {
 /* Articles, general */
 
 .post, .page, .post-groups {
-  margin: 40px auto;
+  margin: auto;
   max-width: 780px;
 }
 
@@ -174,7 +174,7 @@ article.micropost {
 }
 
 .micropost p > a, .post p > a {
-  text-decoration: underline; 
+  text-decoration: underline;
 }
 
 /* Photo Posts */
