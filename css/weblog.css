@@ -372,16 +372,15 @@ and (max-width: 780px) {
   }
 
   nav ul > li {
-    background-color: var(--joshin-elevation-2);
     display:list-item;
     float: none;
     margin: 0;
-    padding: 10px;
-    border-bottom: var(--joshin-elevation-1) 2px solid;
+    padding: 2px;
+    background-color: none;
   }
 
   nav ul:first-child {
-    border-top: var(--joshin-elevation-1) 2px solid;
+    padding: 3px;
   }
 
   .post-group-item {
