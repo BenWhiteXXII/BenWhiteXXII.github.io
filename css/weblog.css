@@ -5,9 +5,7 @@
 /* Page */
 
 body {
-  font: 16px/24px "Avenir Next", "Helvetica Neue", Arial, Helvetica, sans-serif;
   line-height: 24px;
-  background-color: var(--joshin-elevation-0);
 }
 
 a[href] {
