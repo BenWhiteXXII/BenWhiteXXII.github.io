@@ -6,9 +6,21 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-    <lastBuildDate>Wed, 19 Mar 2025 19:33:45 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 23 Mar 2025 14:55:35 +0000</lastBuildDate>
     <atom:link href="https://BenWhiteXXII.github.io/microposts/" rel="self" type="application/rss+xml" />
 
+    
+      
+      <item>
+      	
+        <link>https://BenWhiteXXII.github.io/microposts/23032025_145535/</link>
+        <pubDate>Sun, 23 Mar 2025 14:55:35 +0000</pubDate>
+        <author> </author>
+        <guid>https://BenWhiteXXII.github.io/microposts/23032025_145535/</guid>
+        <description>&lt;p&gt;Cleaned up the site css a bit since having 3 or 4 different css files was bugging me. Due to the nature of &lt;del&gt;stolen&lt;/del&gt; &lt;em&gt;cloned&lt;/em&gt; code I&amp;rsquo;m still working between two. Probably an easy merge but I&amp;rsquo;m a lazy bastard.&lt;/p&gt;
+</description>
+      </item>
+      
     
       
       <item>
