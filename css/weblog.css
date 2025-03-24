@@ -18,7 +18,7 @@ h1, h2, h3, h4 {
 }
 
 img {
-  max-width: 780px;
+  width: 780px;
 }
 
 blockquote {
@@ -368,5 +368,9 @@ and (max-width: 780px) {
   .micropost {
     margin: 0px auto;
     padding: 20px;
+  }
+
+  img {
+    width: 80%;
   }
 }
