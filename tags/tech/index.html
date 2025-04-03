@@ -8,17 +8,9 @@
     <meta name="description" content="See it marked on the walls! Read it in your books! Hear it in the slow ticking of the clock!">
 
      
-    <meta property="og:type" content="article" />
-    <meta property="og:title" content="">
-    
-    <meta property="og:url" content="https://BenWhiteXXII.github.io/microposts/08032025_152629/">
-    <meta property="og:description" content="Even books can be mindless consumption. As I finish more books I feel that reading, or any activity for that matter that doesn&rsquo;t create value, can not be a fulfilling activity. Reading is a great enhancer of value but not an end to be desired.">
-    <meta property="og:site_name" content="INSCRIPTION AT SALONAE">
-    <meta name="twitter:card" content="summary_large_image">
-    
     <meta name="generator" content="Hugo 0.145.0">
     
-    <title>INSCRIPTION AT SALONAE</title>
+    <title>Tech &middot; INSCRIPTION AT SALONAE</title>
 
     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
     <link rel="icon" href="/favicon.ico" type="image/x-icon">
@@ -102,7 +94,7 @@ code {
 
 
     
-	  <link href="" rel="alternate" type="application/rss+xml" title="INSCRIPTION AT SALONAE" />
+	  <link href="/tags/tech/index.xml" rel="alternate" type="application/rss+xml" title="INSCRIPTION AT SALONAE" />
 	
 
     <meta http-equiv="X-Clacks-Overhead" content="GNU Terry Pratchett" />
@@ -142,13 +134,71 @@ code {
 </header>
 
 
-  <main class="content">
-   <article class="micropost">
-     <p>Even books can be mindless consumption. As I finish more books I feel that reading, or any activity for that matter that doesn&rsquo;t create value, can not be a fulfilling activity. Reading is a great enhancer of value but not an end to be desired.</p>
+<main class="content list">
+   
 
-     <a href='https://BenWhiteXXII.github.io/microposts/08032025_152629/'><aside class="dates">→ 2025/03/08 3:26 PM</aside></a>
-   </article>
-  </main>
+
+
+
+
+  
+
+  
+
+  
+
+  
+    <article class="post">
+  
+    <h2><a rel="full-article" href="https://BenWhiteXXII.github.io/posts/2025/29032025_182216/">How I upload to my blog</a></h2>
+  
+
+  <div class="postmeta">Posted on <time datetime='2025-03-29' pubdate="">March 29, 2025</time>
+    
+  </div>
+
+  <p>
+    
+      <p><img src="/images/headphones.jpg" alt="Statue wearing headphones"></p>
+<p>I use <a href="https://gohugo.io/">hugo</a> to build my blog from a bunch of Markdown files into a genuine static site.
+Since it&rsquo;s all local files I use Neovim and the command line to edit and update everything.</p>
+<h3 id="creating-a-new-post-micropost">Creating a new post/ micropost</h3>
+<p>I use this quick and dirty script to generate a new micropost:</p>
+<pre tabindex="0"><code>#!/bin/sh
+dt=$(date &#39;+%d%m%Y_%H%M%S&#39;)
+year=$(date &#39;+%Y&#39;)
+
+cd ~/path/to/website
+hugo new content/posts/$year/$dt.md
+st -e nvim content/posts/$year/$dt.md
+</code></pre><p>This makes a new micropost from my hugo template and opens a new terminal so that I can immediately edit it in Neovim. The script for regular posts is pretty much identical but it opens a different template so that I can fill in the title and chose whether or not to save it as a draft.
+Here&rsquo;s the script in action.
+<img src="/images/screencast.gif" alt="Micropost Screencast"></p>
+    
+  </p>
+
+  
+    
+      <a class="continue" rel="full-article" href="https://BenWhiteXXII.github.io/posts/2025/29032025_182216/">Continue Reading »</a>
+    
+  
+</article>
+
+  
+
+
+
+<div class="pagination">
+  
+
+  
+
+  
+</div>
+
+
+</main>
+
 
 
     <script type="text/javascript" src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
