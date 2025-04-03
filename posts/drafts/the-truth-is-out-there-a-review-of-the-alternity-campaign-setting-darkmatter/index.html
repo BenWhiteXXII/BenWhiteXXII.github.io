@@ -9,29 +9,16 @@
 
      
     <meta property="og:type" content="article" />
-    <meta property="og:title" content="How I upload to my blog">
+    <meta property="og:title" content="The Truth Is Out There: A Review of the Alternity Campaign Setting Dark*Matter">
     
-    <meta property="og:url" content="http://localhost:1313/posts/2025/29032025_182216/">
-    <meta property="og:description" content="
-I use hugo to build my blog from a bunch of Markdown files into a genuine static site.
-Since it&rsquo;s all local files I use Neovim and the command line to edit and update everything.
-Creating a new post/ micropost
-I use this quick and dirty script to generate a new micropost:
-#!/bin/sh
-dt=$(date &#39;&#43;%d%m%Y_%H%M%S&#39;)
-year=$(date &#39;&#43;%Y&#39;)
-
-cd ~/path/to/website
-hugo new content/posts/$year/$dt.md
-st -e nvim content/posts/$year/$dt.md
-This makes a new micropost from my hugo template and opens a new terminal so that I can immediately edit it in Neovim. The script for regular posts is pretty much identical but it opens a different template so that I can fill in the title and chose whether or not to save it as a draft.
-Here&rsquo;s the script in action.">
+    <meta property="og:url" content="http://localhost:1313/posts/drafts/the-truth-is-out-there-a-review-of-the-alternity-campaign-setting-darkmatter/">
+    <meta property="og:description" content="">
     <meta property="og:site_name" content="INSCRIPTION AT SALONAE">
     <meta name="twitter:card" content="summary_large_image">
     
     <meta name="generator" content="Hugo 0.145.0">
     
-    <title>How I upload to my blog &middot; INSCRIPTION AT SALONAE</title>
+    <title>The Truth Is Out There: A Review of the Alternity Campaign Setting Dark*Matter &middot; INSCRIPTION AT SALONAE</title>
 
     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
     <link rel="icon" href="/favicon.ico" type="image/x-icon">
@@ -159,57 +146,19 @@ code {
 
     <article class="post">
       
-        <h2><a rel="full-article" href="http://localhost:1313/posts/2025/29032025_182216/">How I upload to my blog</a></h2>
+        <h2><a rel="full-article" href="http://localhost:1313/posts/drafts/the-truth-is-out-there-a-review-of-the-alternity-campaign-setting-darkmatter/">The Truth Is Out There: A Review of the Alternity Campaign Setting Dark*Matter</a></h2>
       
 
-      <div class="postmeta">Posted on <time datetime='2025-03-29' pubdate="">March 29, 2025</time> in
+      <div class="postmeta">Posted on <time datetime='2024-01-04' pubdate="">January 4, 2024</time> in
         <span class="categories">
           
-            <a class="category" href="/tags/tech">tech</a>
+            <a class="category" href="/tags/"></a>
           
         </span>
       </div>
 
       <p>
-        <p><img src="/images/headphones.jpg" alt="Statue wearing headphones"></p>
-<p>I use <a href="https://gohugo.io/">hugo</a> to build my blog from a bunch of Markdown files into a genuine static site.
-Since it&rsquo;s all local files I use Neovim and the command line to edit and update everything.</p>
-<h3 id="creating-a-new-post-micropost">Creating a new post/ micropost</h3>
-<p>I use this quick and dirty script to generate a new micropost:</p>
-<pre tabindex="0"><code>#!/bin/sh
-dt=$(date &#39;+%d%m%Y_%H%M%S&#39;)
-year=$(date &#39;+%Y&#39;)
-
-cd ~/path/to/website
-hugo new content/posts/$year/$dt.md
-st -e nvim content/posts/$year/$dt.md
-</code></pre><p>This makes a new micropost from my hugo template and opens a new terminal so that I can immediately edit it in Neovim. The script for regular posts is pretty much identical but it opens a different template so that I can fill in the title and chose whether or not to save it as a draft.
-Here&rsquo;s the script in action.</p>
-<p><img src="/images/micropost.gif" alt="Micropost Screencast"></p>
-<h3 id="website-update">Website update</h3>
-<p>Next comes my script to update the site:</p>
-<pre tabindex="0"><code>#!/bin/sh
-
-notify-send &#34; Updating Website...&#34;
-cd ~/Documents/Website/inscription/
-hugo
-cd public/
-git status
-read -p &#34;Proceed? y/N: &#34; confirm
-if [ &#34;$confirm&#34; == &#39;y&#39; ]
-then
-	git add .
-	git commit -m &#34;Updated Blog&#34;
-	git push origin main
-	notify-send &#34;✅ Website Updated&#34;
-else
-	notify-send &#34;❌ Update Cancelled&#34;
-	exit
-fi
-</code></pre><p>This compiles my markdown files to html and css with hugo and pushes all changes in the directory to github.
-It&rsquo;s even complete with notifications!</p>
-<p><img src="/images/websiteup.gif" alt="Website update"></p>
-
+        
       </p>
     </article>
 
