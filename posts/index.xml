@@ -6,8 +6,15 @@
     <description>Recent content in Posts on INSCRIPTION AT SALONAE</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 22 Mar 2025 21:01:49 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 03 Apr 2025 18:22:16 +0000</lastBuildDate>
     <atom:link href="https://BenWhiteXXII.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How I upload to my blog</title>
+      <link>https://BenWhiteXXII.github.io/posts/2025/29032025_182216/</link>
+      <pubDate>Thu, 03 Apr 2025 18:22:16 +0000</pubDate>
+      <guid>https://BenWhiteXXII.github.io/posts/2025/29032025_182216/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://BenWhiteXXII.github.io/images/headphones.jpg&#34; alt=&#34;Statue wearing headphones&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;I use &lt;a href=&#34;https://gohugo.io/&#34;&gt;hugo&lt;/a&gt; to build my blog from a bunch of Markdown files into a genuine static site.&#xA;Since it&amp;rsquo;s all local files I use Neovim and the command line to edit and update everything.&lt;/p&gt;&#xA;&lt;h3 id=&#34;creating-a-new-post-micropost&#34;&gt;Creating a new post/ micropost&lt;/h3&gt;&#xA;&lt;p&gt;I use this quick and dirty script to generate a new micropost:&lt;/p&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;#!/bin/sh&#xA;dt=$(date &amp;#39;+%d%m%Y_%H%M%S&amp;#39;)&#xA;year=$(date &amp;#39;+%Y&amp;#39;)&#xA;&#xA;cd ~/path/to/website&#xA;hugo new content/posts/$year/$dt.md&#xA;st -e nvim content/posts/$year/$dt.md&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;This makes a new micropost from my hugo template and opens a new terminal so that I can immediately edit it in Neovim. The script for regular posts is pretty much identical but it opens a different template so that I can fill in the title and chose whether or not to save it as a draft.&#xA;Here&amp;rsquo;s the script in action.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>The Dreamer Lies Still</title>
       <link>https://BenWhiteXXII.github.io/posts/2025/22032025_210149/</link>

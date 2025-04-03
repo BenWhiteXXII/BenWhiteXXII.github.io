@@ -6,9 +6,58 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-    <lastBuildDate>Thu, 03 Apr 2025 21:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 03 Apr 2025 18:22:16 +0000</lastBuildDate>
     <atom:link href="https://BenWhiteXXII.github.io/" rel="self" type="application/rss+xml" />
     
+      
+    
+      
+      <item>
+        <title>How I upload to my blog</title>
+        <link>https://BenWhiteXXII.github.io/posts/2025/29032025_182216/</link>
+        <pubDate>Thu, 03 Apr 2025 18:22:16 +0000</pubDate>
+        <author> </author>
+        <guid>https://BenWhiteXXII.github.io/posts/2025/29032025_182216/</guid>
+        <description>&lt;p&gt;&lt;img src=&#34;https://BenWhiteXXII.github.io/images/headphones.jpg&#34; alt=&#34;Statue wearing headphones&#34;&gt;&lt;/p&gt;
+&lt;p&gt;I use &lt;a href=&#34;https://gohugo.io/&#34;&gt;hugo&lt;/a&gt; to build my blog from a bunch of Markdown files into a genuine static site.
+Since it&amp;rsquo;s all local files I use Neovim and the command line to edit and update everything.&lt;/p&gt;
+&lt;h3 id=&#34;creating-a-new-post-micropost&#34;&gt;Creating a new post/ micropost&lt;/h3&gt;
+&lt;p&gt;I use this quick and dirty script to generate a new micropost:&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;#!/bin/sh
+dt=$(date &amp;#39;+%d%m%Y_%H%M%S&amp;#39;)
+year=$(date &amp;#39;+%Y&amp;#39;)
+
+cd ~/path/to/website
+hugo new content/posts/$year/$dt.md
+st -e nvim content/posts/$year/$dt.md
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;This makes a new micropost from my hugo template and opens a new terminal so that I can immediately edit it in Neovim. The script for regular posts is pretty much identical but it opens a different template so that I can fill in the title and chose whether or not to save it as a draft.
+Here&amp;rsquo;s the script in action.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://BenWhiteXXII.github.io/images/micropost.gif&#34; alt=&#34;Micropost Screencast&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;website-update&#34;&gt;Website update&lt;/h3&gt;
+&lt;p&gt;Next comes my script to update the site:&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;#!/bin/sh
+
+notify-send &amp;#34; Updating Website...&amp;#34;
+cd ~/Documents/Website/inscription/
+hugo
+cd public/
+git status
+read -p &amp;#34;Proceed? y/N: &amp;#34; confirm
+if [ &amp;#34;$confirm&amp;#34; == &amp;#39;y&amp;#39; ]
+then
+	git add .
+	git commit -m &amp;#34;Updated Blog&amp;#34;
+	git push origin main
+	notify-send &amp;#34;✅ Website Updated&amp;#34;
+else
+	notify-send &amp;#34;❌ Update Cancelled&amp;#34;
+	exit
+fi
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;This compiles my markdown files to html and css with hugo and pushes all changes in the directory to github.
+It&amp;rsquo;s even complete with notifications!&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://BenWhiteXXII.github.io/images/websiteup.gif&#34; alt=&#34;Website update&#34;&gt;&lt;/p&gt;
+</description>
+      </item>
       
     
       
