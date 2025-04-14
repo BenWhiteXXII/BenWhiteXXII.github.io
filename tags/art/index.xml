@@ -1,19 +1,675 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Art on INSCRIPTION AT SALONAE</title>
-    <link>https://BenWhiteXXII.github.io/tags/art/</link>
-    <description>Recent content in Art on INSCRIPTION AT SALONAE</description>
-    <generator>Hugo</generator>
+    <title>INSCRIPTION AT SALONAE - Art</title>
+    <link>https://BenWhiteXXII.github.io/https://BenWhiteXXII.github.io/tags/art/</link>
+    <description>All entries in Art on INSCRIPTION AT SALONAE</description>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    
     <lastBuildDate>Sun, 18 Aug 2024 20:55:03 +0100</lastBuildDate>
-    <atom:link href="https://BenWhiteXXII.github.io/tags/art/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Mediocrity: a response</title>
-      <link>https://BenWhiteXXII.github.io/posts/2024/18082024_205503/</link>
-      <pubDate>Sun, 18 Aug 2024 20:55:03 +0100</pubDate>
-      <guid>https://BenWhiteXXII.github.io/posts/2024/18082024_205503/</guid>
-      <description>&lt;figure &gt;&lt;img src=&#34;https://BenWhiteXXII.github.io/images/recognition.jpg&#34; title=&#34;Did you know that at one point this site was going to be called &amp;#39;The Recognition Scene&amp;#39;?&#34;&gt;&lt;/figure&gt;&#xA;&#xA;&lt;p&gt;&lt;a href=&#34;https://batts.substack.com/p/the-infinite-weight-of-mediocrity&#34;&gt;This post&lt;/a&gt; arrived in my inbox just a few moments ago and I just had to write down my thoughts.&#xA;You can read the full post yourself but I wanted to make a few points, mainly to help myself grab hold of some thoughts that have been squirming at the back of my head for a few months, perhaps even a few years, now.&#xA;I&amp;rsquo;ll open this by saying that I&amp;rsquo;m not an artist.&#xA;I don&amp;rsquo;t make art, I don&amp;rsquo;t even critise art, but I enjoy art and one thing I&amp;rsquo;ve discovered time and time again is this: when it comes to art, you &lt;em&gt;cannot&lt;/em&gt; fail.&#xA;Now I don&amp;rsquo;t mean this in a &amp;ldquo;if you don&amp;rsquo;t sell well you&amp;rsquo;re going to end up penniless and alone&amp;rdquo; sort-of-way, but moreso that &lt;em&gt;no matter what you make, you will have an audience&lt;/em&gt;.&#xA;For better and for worse I guess.&lt;/p&gt;</description>
-    </item>
+    <atom:link href="https://BenWhiteXXII.github.io/tags/art/" rel="self" type="application/rss+xml" />
+    
+      
+    
+      
+      <item>
+        <title></title>
+        <link>https://BenWhiteXXII.github.io/microposts/14042025_115949/</link>
+        <pubDate>Mon, 14 Apr 2025 11:59:50 +0100</pubDate>
+        <author> </author>
+        <guid>https://BenWhiteXXII.github.io/microposts/14042025_115949/</guid>
+        <description>&lt;p&gt;Finished Brian Aldiss&amp;rsquo; &lt;em&gt;Hothouse&lt;/em&gt; recently and I really enjoyed it. It&amp;rsquo;s that kind of high-concept, ecological, unique sci-fi that I love.&lt;/p&gt;
+</description>
+      </item>
+      
+    
+      
+      <item>
+        <title></title>
+        <link>https://BenWhiteXXII.github.io/microposts/13042025_140708/</link>
+        <pubDate>Sun, 13 Apr 2025 14:07:08 +0100</pubDate>
+        <author> </author>
+        <guid>https://BenWhiteXXII.github.io/microposts/13042025_140708/</guid>
+        <description>&lt;p&gt;I&amp;rsquo;ve been wanting to garden more often but it&amp;rsquo;s a tough hobby in your 20&amp;rsquo;s. I&amp;rsquo;ll be moving out in a few months and allotments with their long waiting list and monthly fees don&amp;rsquo;t appeal to me. There&amp;rsquo;s a community garden down the road which I&amp;rsquo;ve been to a few times but it might become too much of a trek from my new place.&lt;/p&gt;
+</description>
+      </item>
+      
+    
+      
+      <item>
+        <title></title>
+        <link>https://BenWhiteXXII.github.io/microposts/04042025_205340/</link>
+        <pubDate>Fri, 04 Apr 2025 20:53:41 +0100</pubDate>
+        <author> </author>
+        <guid>https://BenWhiteXXII.github.io/microposts/04042025_205340/</guid>
+        <description>&lt;p&gt;Currently researching organometallic structures and nitrogen fixing using palladium as a catalyst for my setting&amp;rsquo;s magic system. World building really opens up when you figure out a key way that your setting differs from reality.&lt;/p&gt;
+</description>
+      </item>
+      
+    
+      
+      <item>
+        <title>How I upload to my blog</title>
+        <link>https://BenWhiteXXII.github.io/posts/2025/29032025_182216/</link>
+        <pubDate>Thu, 03 Apr 2025 18:22:16 +0000</pubDate>
+        <author> </author>
+        <guid>https://BenWhiteXXII.github.io/posts/2025/29032025_182216/</guid>
+        <description>&lt;p&gt;&lt;img src=&#34;https://BenWhiteXXII.github.io/images/headphones.jpg&#34; alt=&#34;Statue wearing headphones&#34;&gt;&lt;/p&gt;
+&lt;p&gt;I use &lt;a href=&#34;https://gohugo.io/&#34;&gt;hugo&lt;/a&gt; to build my blog from a bunch of Markdown files into a genuine static site.
+Since it&amp;rsquo;s all local files I use Neovim and the command line to edit and update everything.&lt;/p&gt;
+&lt;h3 id=&#34;creating-a-new-post-micropost&#34;&gt;Creating a new post/ micropost&lt;/h3&gt;
+&lt;p&gt;I use this quick and dirty script to generate a new micropost:&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;#!/bin/sh
+dt=$(date &amp;#39;+%d%m%Y_%H%M%S&amp;#39;)
+year=$(date &amp;#39;+%Y&amp;#39;)
+
+cd ~/path/to/website
+hugo new content/posts/$year/$dt.md
+st -e nvim content/posts/$year/$dt.md
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;This makes a new micropost from my hugo template and opens a new terminal so that I can immediately edit it in Neovim. The script for regular posts is pretty much identical but it opens a different template so that I can fill in the title and chose whether or not to save it as a draft.
+Here&amp;rsquo;s the script in action.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://BenWhiteXXII.github.io/images/micropost.gif&#34; alt=&#34;Micropost Screencast&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;website-update&#34;&gt;Website update&lt;/h3&gt;
+&lt;p&gt;Next comes my script to update the site:&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;#!/bin/sh
+
+notify-send &amp;#34; Updating Website...&amp;#34;
+cd ~/Documents/Website/inscription/
+hugo
+cd public/
+git status
+read -p &amp;#34;Proceed? y/N: &amp;#34; confirm
+if [ &amp;#34;$confirm&amp;#34; == &amp;#39;y&amp;#39; ]
+then
+	git add .
+	git commit -m &amp;#34;Updated Blog&amp;#34;
+	git push origin main
+	notify-send &amp;#34;✅ Website Updated&amp;#34;
+else
+	notify-send &amp;#34;❌ Update Cancelled&amp;#34;
+	exit
+fi
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;This compiles my markdown files to html and css with hugo and pushes all changes in the directory to github.
+It&amp;rsquo;s even complete with notifications!&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://BenWhiteXXII.github.io/images/websiteup.gif&#34; alt=&#34;Website update&#34;&gt;&lt;/p&gt;
+</description>
+      </item>
+      
+    
+      
+      <item>
+        <title></title>
+        <link>https://BenWhiteXXII.github.io/microposts/03042025_113920/</link>
+        <pubDate>Thu, 03 Apr 2025 11:39:21 +0100</pubDate>
+        <author> </author>
+        <guid>https://BenWhiteXXII.github.io/microposts/03042025_113920/</guid>
+        <description>&lt;p&gt;Eight books in a month, I haven&amp;rsquo;t seen those numbers since 2023! Even though I reduced my book goal compared to last year I might be on track to reaching it earlier than I expected.&lt;/p&gt;
+</description>
+      </item>
+      
+    
+      
+      <item>
+        <title></title>
+        <link>https://BenWhiteXXII.github.io/microposts/29032025_162528/</link>
+        <pubDate>Sat, 29 Mar 2025 16:25:29 +0000</pubDate>
+        <author> </author>
+        <guid>https://BenWhiteXXII.github.io/microposts/29032025_162528/</guid>
+        <description>&lt;p&gt;&lt;a href=&#34;https://joshuaturek.substack.com/p/mickeys-parade&#34;&gt;A great piece of writing&lt;/a&gt; just landed in my inbox from &lt;a href=&#34;https://joshuaturek.substack.com/&#34;&gt;Joshua Turek&lt;/a&gt;. Go check it out.&lt;/p&gt;
+</description>
+      </item>
+      
+    
+      
+      <item>
+        <title></title>
+        <link>https://BenWhiteXXII.github.io/microposts/24032025_213457/</link>
+        <pubDate>Mon, 24 Mar 2025 21:34:58 +0000</pubDate>
+        <author> </author>
+        <guid>https://BenWhiteXXII.github.io/microposts/24032025_213457/</guid>
+        <description>&lt;p&gt;Just started reading &lt;em&gt;The Epic of Gilgamesh&lt;/em&gt; and the edition that I have, the Norton Critical Edition, is fantastic - loads of background detail and annotaions plus essays on the text. Real academic nerd shit. I&amp;rsquo;ll have to think about picking some more of these up if they&amp;rsquo;re all as good as this.&lt;/p&gt;
+</description>
+      </item>
+      
+    
+      
+      <item>
+        <title></title>
+        <link>https://BenWhiteXXII.github.io/microposts/23032025_145535/</link>
+        <pubDate>Sun, 23 Mar 2025 14:55:35 +0000</pubDate>
+        <author> </author>
+        <guid>https://BenWhiteXXII.github.io/microposts/23032025_145535/</guid>
+        <description>&lt;p&gt;Cleaned up the site css a bit since having 3 or 4 different css files was bugging me. Due to the nature of &lt;del&gt;stolen&lt;/del&gt; &lt;em&gt;cloned&lt;/em&gt; code I&amp;rsquo;m still working between two. Probably an easy merge but I&amp;rsquo;m a lazy bastard.&lt;/p&gt;
+</description>
+      </item>
+      
+    
+      
+      <item>
+        <title>The Dreamer Lies Still</title>
+        <link>https://BenWhiteXXII.github.io/posts/2025/22032025_210149/</link>
+        <pubDate>Sat, 22 Mar 2025 21:01:49 +0000</pubDate>
+        <author> </author>
+        <guid>https://BenWhiteXXII.github.io/posts/2025/22032025_210149/</guid>
+        <description>&lt;p&gt;&lt;img src=&#34;https://BenWhiteXXII.github.io/images/dreamer.jpg&#34; alt=&#34;Dreamer&#34;&gt;&lt;/p&gt;
+&lt;p&gt;After mulling over my ideas for a new campaign setting with a friend I&amp;rsquo;ve come to some indefinite conclusions about how I want the game to play.&lt;/p&gt;
+&lt;p&gt;Firstly, the rules should either be B/X, a similar retroclone or a modified version of Into The Odd. Like ITO there&amp;rsquo;s a focus more on problem-solving and the use f items rather than magical hand-waving. I&amp;rsquo;m not sure if I&amp;rsquo;ll scrub rules for magic entirely since most of my players would be expecting something like 5e. If magic does exist then it comes with a great cost and a high risk, only the most nefarious and wicked would seek shortcuts to fate&amp;rsquo;s design. The characters too shouldn&amp;rsquo;t be too heroic, Elrics more than Conans, who rely on their forward planning to survive - it shouldn&amp;rsquo;t be uncommon for a player to have more than one character at a time.&lt;/p&gt;
+&lt;p&gt;Characters will also start with debt, along with a failed career (a la Electric Bastionland) and a list of contacts, some friends some foes. These are mainly there for more hooks, though I might revise this later if it shows to be too much choice.&lt;/p&gt;
+&lt;p&gt;Here&amp;rsquo;s where the general structure comes into play. Ideally it should be a west-marches like game, with player hopping in and out to suit their characters wants and needs. This means that in something like ITO with no inherent levelling system it would put the burden of motivation on the players to grow their characters. Additionally players should be moving around the map constantly, shaping the world as they go.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://BenWhiteXXII.github.io/posts/2025/12032025_162607/index.html&#34;&gt;I&amp;rsquo;ve had some ideas about the setting&lt;/a&gt; but I don&amp;rsquo;t want to tie things up too much before I get a game or two in. It&amp;rsquo;s important to test the waters and see what kind of game people want to play in terms of narrative and function. On the broad it&amp;rsquo;s a grimdark, post middle ages setting in an emerging empire rife with uncertainty.&lt;/p&gt;
+&lt;p&gt;That&amp;rsquo;s all I&amp;rsquo;ve got for now, I&amp;rsquo;ll dive into Cairn 2e and a few other systems to see if I can find a good fit.&lt;/p&gt;
+</description>
+      </item>
+      
+    
+      
+      <item>
+        <title></title>
+        <link>https://BenWhiteXXII.github.io/microposts/19032025_193345/</link>
+        <pubDate>Wed, 19 Mar 2025 19:33:45 +0000</pubDate>
+        <author> </author>
+        <guid>https://BenWhiteXXII.github.io/microposts/19032025_193345/</guid>
+        <description>&lt;p&gt;Finally finished &lt;em&gt;The Plantagenets&lt;/em&gt;. Great book but its no surprise that in a book about 250 years of history there&amp;rsquo;s times where it can drag. Still a very informative read that&amp;rsquo;s set me up nicely for some other books that I&amp;rsquo;ve been wanting to read but just didn&amp;rsquo;t have the background for yet.&lt;/p&gt;
+</description>
+      </item>
+      
+    
+      
+      <item>
+        <title></title>
+        <link>https://BenWhiteXXII.github.io/microposts/14032025_223232/</link>
+        <pubDate>Fri, 14 Mar 2025 22:32:34 +0000</pubDate>
+        <author> </author>
+        <guid>https://BenWhiteXXII.github.io/microposts/14032025_223232/</guid>
+        <description>&lt;p&gt;&lt;em&gt;The Dispossessed&lt;/em&gt; is a masterpiece and I&amp;rsquo;m surprised it&amp;rsquo;s taken me this long to get around to reading it.&lt;/p&gt;
+</description>
+      </item>
+      
+    
+      
+      <item>
+        <title>Notes on a world</title>
+        <link>https://BenWhiteXXII.github.io/posts/2025/12032025_162607/</link>
+        <pubDate>Wed, 12 Mar 2025 16:26:07 +0000</pubDate>
+        <author> </author>
+        <guid>https://BenWhiteXXII.github.io/posts/2025/12032025_162607/</guid>
+        <description>&lt;p&gt;&lt;img src=&#34;https://BenWhiteXXII.github.io/images/monarch.jpg&#34; alt=&#34;Treacherous king&#34;&gt;&lt;/p&gt;
+&lt;p&gt;I&amp;rsquo;m a longtime fan of pen and paper role-playing games - Into the Odd, Cairn, the titan Dungeons and Dragons, and a hundred others that are created by indie gamers and publishers every day. I haven&amp;rsquo;t played in a group for a few years now but that doesn&amp;rsquo;t stop me from coming up with ideas for games; sometimes that&amp;rsquo;s half the fun.&lt;/p&gt;
+&lt;p&gt;Here&amp;rsquo;s a few fragments of the new setting I&amp;rsquo;ve been working up over the past 2 weeks. It&amp;rsquo;s largely based off the declining reign of an monarch in a dying world, though there&amp;rsquo;s also a few hints at what comes later. All comes courtesy of my notes app and brief moments of solitude at work.&lt;/p&gt;
+&lt;h3 id=&#34;fragment-1&#34;&gt;Fragment 1&lt;/h3&gt;
+&lt;p&gt;All that remained after the cataclysm, the night where the sun fell into
+the earth, was silence. The machines collapsed on their terrible weight and
+the things that gave them foundation, the metals, the angiosperms, the
+earth, awoke. There came a long, low humming on the wind and when the
+titans had long become dust there was life again.&lt;/p&gt;
+&lt;h3 id=&#34;fragment-2&#34;&gt;Fragment 2&lt;/h3&gt;
+&lt;p&gt;The kingdom has been raveged by civil war. Barons and earls swing from
+trees at the gates of capitals. The king&amp;rsquo;s favourite lies in a golden tomb
+beneath Penmoore castle. The more fortunate aristocracy feel the heat of
+the power vacuum. Out in the vassal state to the west opportunity gleams
+from cave mouths.&lt;/p&gt;
+&lt;h3 id=&#34;fragment-3&#34;&gt;Fragment 3&lt;/h3&gt;
+&lt;p&gt;&amp;lsquo;Parliaments, consultations and councils decide nothing &amp;hellip; For the nibbles
+of the realm, terrified by threats and the penalties inflicted on others,
+let the king&amp;rsquo;s will have free reign. This today will conquers reason. For
+whatever pleases the king, though lacking in reason, has force of law.&amp;rsquo;&lt;/p&gt;
+&lt;h3 id=&#34;fragment-4&#34;&gt;Fragment 4&lt;/h3&gt;
+&lt;p&gt;The church remains begrudging to the crown since the death of a saint at
+the hand of the king&amp;rsquo;s men 100 years ago. He condemned the king to the
+judgement of god 13 years from the day. The king later died, trampled by
+his own horse while trying to flee the castle in a paranoid state.&lt;/p&gt;
+&lt;h3 id=&#34;fragment-5&#34;&gt;Fragment 5&lt;/h3&gt;
+&lt;p&gt;The king swears homage to a democratic (triumvirate) nation across the
+water. There are some regions there that are under the king&amp;rsquo;s control but
+this nation has slowly been fortifying towns around them for an invasion.&lt;/p&gt;
+&lt;h3 id=&#34;fragment-6&#34;&gt;Fragment 6&lt;/h3&gt;
+&lt;p&gt;The king banishes an earl who is accruing land and wealth rapidly on the
+charge of raising an army against him. Due to his lands being on the border
+with the country to the north the earl was attempting to broker peace but
+did hold animosity towards the king. After his banishment to the democratic
+nation, the queen (a younger sister of one of the men on the triumvirate)
+is sent there to broker peace over the contested territory. Once there she
+sides with the banished earl, arguing that the king is unfit to rule and
+must be replaced by their 14 year old son. They arrive on the coast with a
+military party (partly funded by the triumvirate) and capture the king as
+he attempts to flee north. The king gives up his throne and his most loyal
+followers are put to death after a short trial. His son now rules but is
+controlled by his mother and the earl.&lt;/p&gt;
+&lt;h3 id=&#34;fragment-7&#34;&gt;Fragment 7&lt;/h3&gt;
+&lt;p&gt;The new king is 18. He knows that he cannot be controlled by his power
+hungry parents any longer. With a trusted team of knights and young barons
+and earls they ambush the earl in a meeting with a few elder barons and
+priests. The earl is captured and the queen is stripped of her power and
+pensioned. After a short trial where the earl is accused of killing the
+previous king while in prison, he is hung drawn and quartered.&lt;/p&gt;
+&lt;h3 id=&#34;fragment-8&#34;&gt;Fragment 8&lt;/h3&gt;
+&lt;p&gt;The folville gang (a corrupt gentry family) stalks the mid lands. They kill
+their political rivals and take travelling judges hostage.&lt;/p&gt;
+&lt;h3 id=&#34;fragment-9&#34;&gt;Fragment 9&lt;/h3&gt;
+&lt;p&gt;Name of place: Saracen.&lt;/p&gt;
+&lt;h3 id=&#34;fragment-10&#34;&gt;Fragment 10&lt;/h3&gt;
+&lt;p&gt;Roaming educators (import from democratic country) and judges.&lt;/p&gt;
+</description>
+      </item>
+      
+    
+      
+      <item>
+        <title></title>
+        <link>https://BenWhiteXXII.github.io/microposts/12032025_084345/</link>
+        <pubDate>Wed, 12 Mar 2025 08:43:46 +0000</pubDate>
+        <author> </author>
+        <guid>https://BenWhiteXXII.github.io/microposts/12032025_084345/</guid>
+        <description>&lt;p&gt;I&amp;rsquo;ve been cooking up a new D&amp;amp;D world recently based on the reign of Edward III, maybe I should do a post or two about that.&lt;/p&gt;
+</description>
+      </item>
+      
+    
+      
+      <item>
+        <title></title>
+        <link>https://BenWhiteXXII.github.io/microposts/08032025_152629/</link>
+        <pubDate>Sat, 08 Mar 2025 15:26:30 +0000</pubDate>
+        <author> </author>
+        <guid>https://BenWhiteXXII.github.io/microposts/08032025_152629/</guid>
+        <description>&lt;p&gt;Even books can be mindless consumption. As I finish more books I feel that reading, or any activity for that matter that doesn&amp;rsquo;t create value, can not be a fulfilling activity. Reading is a great enhancer of value but not an end to be desired.&lt;/p&gt;
+</description>
+      </item>
+      
+    
+      
+      <item>
+        <title></title>
+        <link>https://BenWhiteXXII.github.io/microposts/04032025_104405/</link>
+        <pubDate>Tue, 04 Mar 2025 10:44:05 +0000</pubDate>
+        <author> </author>
+        <guid>https://BenWhiteXXII.github.io/microposts/04032025_104405/</guid>
+        <description>&lt;p&gt;This website definitely needs to be posted to more. I mainly just use it to update my books because I can&amp;rsquo;t stand goodreads.&lt;/p&gt;
+</description>
+      </item>
+      
+    
+      
+      <item>
+        <title></title>
+        <link>https://BenWhiteXXII.github.io/microposts/20082024_145915/</link>
+        <pubDate>Tue, 20 Aug 2024 14:59:15 +0100</pubDate>
+        <author> </author>
+        <guid>https://BenWhiteXXII.github.io/microposts/20082024_145915/</guid>
+        <description>&lt;p&gt;I&amp;rsquo;ve got to start finishing some books, I&amp;rsquo;ve got way too many on the go at the moment and I haven&amp;rsquo;t bought a book in months&lt;/p&gt;
+</description>
+      </item>
+      
+    
+      
+      <item>
+        <title>Mediocrity: a response</title>
+        <link>https://BenWhiteXXII.github.io/posts/2024/18082024_205503/</link>
+        <pubDate>Sun, 18 Aug 2024 20:55:03 +0100</pubDate>
+        <author> </author>
+        <guid>https://BenWhiteXXII.github.io/posts/2024/18082024_205503/</guid>
+        <description>
+&lt;figure &gt;&lt;img src=&#34;https://BenWhiteXXII.github.io/images/recognition.jpg&#34; title=&#34;Did you know that at one point this site was going to be called &amp;#39;The Recognition Scene&amp;#39;?&#34;&gt;&lt;/figure&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://batts.substack.com/p/the-infinite-weight-of-mediocrity&#34;&gt;This post&lt;/a&gt; arrived in my inbox just a few moments ago and I just had to write down my thoughts.
+You can read the full post yourself but I wanted to make a few points, mainly to help myself grab hold of some thoughts that have been squirming at the back of my head for a few months, perhaps even a few years, now.
+I&amp;rsquo;ll open this by saying that I&amp;rsquo;m not an artist.
+I don&amp;rsquo;t make art, I don&amp;rsquo;t even critise art, but I enjoy art and one thing I&amp;rsquo;ve discovered time and time again is this: when it comes to art, you &lt;em&gt;cannot&lt;/em&gt; fail.
+Now I don&amp;rsquo;t mean this in a &amp;ldquo;if you don&amp;rsquo;t sell well you&amp;rsquo;re going to end up penniless and alone&amp;rdquo; sort-of-way, but moreso that &lt;em&gt;no matter what you make, you will have an audience&lt;/em&gt;.
+For better and for worse I guess.&lt;/p&gt;
+&lt;p&gt;Now, good art is not guaranteed to be successful.
+Great art is not guaranteed to make you a dime.
+But is that what matters here?
+Being good at your craft is accomplishment itself, creative people can go for years without having the drive to create, because having ideas just isn&amp;rsquo;t enough.
+To make something, something physical and tangible, is one of the most &lt;em&gt;human&lt;/em&gt; drives that exists.
+And it exists everywhere!
+Cult films, outsider music, box office failures, home video, amature photography, craft fairs, and notes in the pages of second-hand books.
+People cherish these works because it speaks to them specifically, and that&amp;rsquo;s probably why good art can never be universal.
+I think there&amp;rsquo;s a bigger conversation to be had about what makes art good vs what makes it great (probably the commercial viability) but the bottom line is this:
+Your art is not going anywhere becuase the people that enjoy it will never forget it.&lt;/p&gt;
+&lt;p&gt;And the core of this fact would be:
+Making community is making it as an artist.&lt;/p&gt;
+&lt;p&gt;The title is sort of a lie, this post changed into something else as I thought about it more and even now I think my stance is pretty naive.
+But this isn&amp;rsquo;t a response as much as it is reassurance.&lt;/p&gt;
+&lt;p&gt;P.S
+&lt;a href=&#34;https://www.youtube.com/watch?v=EK1tfM35_nc&#34;&gt;This video from Greg Guevara&lt;/a&gt; was posted while I was drafting up this blog post.
+It&amp;rsquo;s more about how to make your art more profitable but I thought it was good to include here.&lt;/p&gt;
+&lt;p&gt;P.P.S
+This is my first blog post using the new scripts, and I&amp;rsquo;ve gotta say it does make getting my thoughts out a hell of a lot easier.
+Look forward to a post about that in the future.&lt;/p&gt;
+</description>
+      </item>
+      
+    
+      
+      <item>
+        <title></title>
+        <link>https://BenWhiteXXII.github.io/microposts/18082024_175335/</link>
+        <pubDate>Sun, 18 Aug 2024 17:53:35 +0100</pubDate>
+        <author> </author>
+        <guid>https://BenWhiteXXII.github.io/microposts/18082024_175335/</guid>
+        <description>&lt;p&gt;I&amp;rsquo;ve now got the scripts to spawn terminals so I can edit the files using vim&lt;/p&gt;
+</description>
+      </item>
+      
+    
+      
+      <item>
+        <title></title>
+        <link>https://BenWhiteXXII.github.io/microposts/18082024_171153/</link>
+        <pubDate>Sun, 18 Aug 2024 17:11:55 +0100</pubDate>
+        <author> </author>
+        <guid>https://BenWhiteXXII.github.io/microposts/18082024_171153/</guid>
+        <description>&lt;p&gt;This is my first time trying out a command line interface for uploading posts&lt;/p&gt;
+</description>
+      </item>
+      
+    
+      
+      <item>
+        <title></title>
+        <link>https://BenWhiteXXII.github.io/microposts/tags/</link>
+        <pubDate>Sat, 17 Aug 2024 21:29:22 +0100</pubDate>
+        <author> </author>
+        <guid>https://BenWhiteXXII.github.io/microposts/tags/</guid>
+        <description>&lt;p&gt;Tags didn&amp;rsquo;t work. Oops. Fixing now.&lt;/p&gt;
+</description>
+      </item>
+      
+    
+      
+      <item>
+        <title></title>
+        <link>https://BenWhiteXXII.github.io/microposts/firstdeploy/</link>
+        <pubDate>Sat, 17 Aug 2024 20:44:44 +0100</pubDate>
+        <author> </author>
+        <guid>https://BenWhiteXXII.github.io/microposts/firstdeploy/</guid>
+        <description>&lt;p&gt;Finally deploying this site after a few nights of editing configs. Let&amp;rsquo;s hope it goes smoothly.&lt;/p&gt;
+</description>
+      </item>
+      
+    
+      
+      <item>
+        <title></title>
+        <link>https://BenWhiteXXII.github.io/microposts/postingscripts/</link>
+        <pubDate>Sat, 17 Aug 2024 20:40:42 +0100</pubDate>
+        <author> </author>
+        <guid>https://BenWhiteXXII.github.io/microposts/postingscripts/</guid>
+        <description>&lt;p&gt;&amp;ldquo;hugo new content/microposts/blahblah&amp;hellip;&amp;rdquo;
+There&amp;rsquo;s got to be an easier way to update a website. In the future I&amp;rsquo;ll make a few dmenu scripts.&lt;/p&gt;
+</description>
+      </item>
+      
+    
+      
+      <item>
+        <title></title>
+        <link>https://BenWhiteXXII.github.io/microposts/first/</link>
+        <pubDate>Sat, 17 Aug 2024 20:34:26 +0100</pubDate>
+        <author> </author>
+        <guid>https://BenWhiteXXII.github.io/microposts/first/</guid>
+        <description>&lt;p&gt;I want to post more often to this website, so I&amp;rsquo;ve given it a fresh coat of paint to line up more with what I eventually want it to be. I&amp;rsquo;ll probably give more detail in another post.&lt;/p&gt;
+</description>
+      </item>
+      
+    
+      
+      <item>
+        <title>Poem of the Week - Prayer</title>
+        <link>https://BenWhiteXXII.github.io/posts/2024/poem-of-the-week-2/</link>
+        <pubDate>Fri, 08 Mar 2024 00:00:00 +0000</pubDate>
+        <author> </author>
+        <guid>https://BenWhiteXXII.github.io/posts/2024/poem-of-the-week-2/</guid>
+        <description>&lt;h2 id=&#34;prayer&#34;&gt;Prayer&lt;/h2&gt;
+&lt;p&gt;I ask you this: &lt;br&gt;
+Which way to go? &lt;br&gt;
+I ask you this: &lt;br&gt;
+Which sin to bear? &lt;br&gt;
+Which crown to put &lt;br&gt;
+Upon my hair? &lt;br&gt;
+I do not know, &lt;br&gt;
+Lord God, &lt;br&gt;
+I do not know. &lt;br&gt;
+&amp;ndash; &lt;em&gt;Langston Hughes, Selected Poems (2020), publ. Serpent&amp;rsquo;s Tail&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Hughes&amp;rsquo; poems have an almost lyrical or song-like quality to them, influenced as he was by the Harlem jazz scene.
+This is one of his simpler poems but still worth considering as you go about your week; each choice we make can have desirable and undesirable consequences.
+The trick to choosing the best outcome is confidence.&lt;/p&gt;</description>
+      </item>
+      
+    
+      
+      <item>
+        <title>Poem of the Week - Ah Vastness of Pines</title>
+        <link>https://BenWhiteXXII.github.io/posts/2024/poem-of-the-week-1/</link>
+        <pubDate>Mon, 26 Feb 2024 00:00:00 +0000</pubDate>
+        <author> </author>
+        <guid>https://BenWhiteXXII.github.io/posts/2024/poem-of-the-week-1/</guid>
+        <description>&lt;p&gt;This is a new series of posts I&amp;rsquo;m going to try to stick to, if only to let me rediscover and rethink some of my favourite poetry.
+Another bonus is that it&amp;rsquo;ll keep this blog updated and alive.&lt;/p&gt;
+&lt;h2 id=&#34;ah-vastness-of-pines&#34;&gt;Ah Vastness of Pines&lt;/h2&gt;
+&lt;p&gt;Ah vastness of pines, murmur of waves breaking, &lt;br&gt;
+slow play of lights, solitary bell, &lt;br&gt;
+twilight falling in your eyes, toy doll, &lt;br&gt;
+earth-shell, in whom the earth sings! &lt;br&gt;&lt;/p&gt;
+&lt;p&gt;In you the rivers sing and my soul flees in them &lt;br&gt;
+as you desire, and you send it where you will. &lt;br&gt;
+Aim my road on your bow of hope &lt;br&gt;
+and in a frenzy I will flee my flock of arrows. &lt;br&gt;&lt;/p&gt;
+&lt;p&gt;On all sides I see your waist of fog, &lt;br&gt;
+and your silence hunts down my afflicted hours; &lt;br&gt;
+my kisses anchor, and my moist desire nests &lt;br&gt;
+in your arms of transparent stone. &lt;br&gt;&lt;/p&gt;
+&lt;p&gt;Ah your mysterious voice that love tolls and darkens &lt;br&gt;
+in the resonant and dying evening! &lt;br&gt;
+Thus in the deep hours I have seen, over the fields, &lt;br&gt;
+the ears of wheat tolling in the mouth of the wind. &lt;br&gt;
+&amp;ndash; &lt;em&gt;Pablo Neruda, Twenty Love Poems and a Song of Despair (2004), trans. W.S. Merwin, publ. Jonathan Cape&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;This poem is one of my favourite&amp;rsquo;s of Neruda and in my opinion makes for a perfect opening to this series.
+While I wasn&amp;rsquo;t attracted to all of his poems in the collection &lt;em&gt;Twenty love poems and a song of despair&lt;/em&gt; I did love his descriptions of nature and the unique imagery they create, especially in this poem which he uses to create an isolating and almost apocolyptic atmosphere.&lt;/p&gt;</description>
+      </item>
+      
+    
+      
+      <item>
+        <title>A Short Guide to Plant Names</title>
+        <link>https://BenWhiteXXII.github.io/posts/2024/a-short-guide-to-plant-names/</link>
+        <pubDate>Thu, 08 Feb 2024 00:00:00 +0000</pubDate>
+        <author> </author>
+        <guid>https://BenWhiteXXII.github.io/posts/2024/a-short-guide-to-plant-names/</guid>
+        <description>&lt;p&gt;A short guide I wrote for myself on Latin plant names (mainly stolen and truncated from &lt;a href=&#34;https://www.gardenersworld.com/plants/gardening-for-beginners-latin-plant-names/&#34;&gt;Gardener&amp;rsquo;s World&lt;/a&gt;.
+Enjoy!&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://BenWhiteXXII.github.io/images/DirtyDream.png&#34; alt=&#34;Dirty Dream #2&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;genus-and-species&#34;&gt;Genus and Species&lt;/h3&gt;
+&lt;p&gt;The Latin (or botanical) name of a plant is binomial.
+The genus comes first, stylised with a capital letter, with the species second.
+For example, for the plant &lt;a href=&#34;https://www.gardenersworld.com/plants/rosa-rugosa/&#34;&gt;Rosa rugosa&lt;/a&gt;, &lt;em&gt;Rosa&lt;/em&gt; is the genus and &lt;em&gt;rugosa&lt;/em&gt; is the species.
+All plants within the same species can reproduce with each other.&lt;/p&gt;
+&lt;h3 id=&#34;plant-families&#34;&gt;Plant Families&lt;/h3&gt;
+&lt;p&gt;Every genus of plants belongs to a family which share certain characteristics.
+It isn&amp;rsquo;t included in the binomial plant name but it is good to know in order to be more familiar with your plants.&lt;/p&gt;
+&lt;h3 id=&#34;sub-species&#34;&gt;Sub-species&lt;/h3&gt;
+&lt;p&gt;If plants are different from their common counterparts, usually due to location, they are distinguished via a sub-species tag after the plant name.
+For example, &lt;a href=&#34;https://www.gardenersworld.com/plants/anthemis-punctata-subsp-cupaniana/&#34;&gt;Anthemis punctata subsp. cupaniana&lt;/a&gt; is a sub-species of &lt;em&gt;Anthemis punctata&lt;/em&gt;.&lt;/p&gt;
+&lt;h3 id=&#34;variety&#34;&gt;Variety&lt;/h3&gt;
+&lt;p&gt;If there is a naturally occuring variation of the main species it is differentiated by the variety tag.
+Geranium sanguineum var. striatum is a variety of cranesbill.&lt;/p&gt;
+&lt;h3 id=&#34;cultivar&#34;&gt;Cultivar&lt;/h3&gt;
+&lt;p&gt;If plants come about through the cultivation two related plants (rather than from the wild) is called a cultivar.
+While all other tags are written in Latin, the cultivar name is a modern language.
+Since sometimes the parents&amp;rsquo; names are not known only the genus and cultivar names are used.&lt;/p&gt;
+&lt;h3 id=&#34;forma&#34;&gt;Forma&lt;/h3&gt;
+&lt;p&gt;A forma tag is used to distinguish minor differences to the species.&lt;/p&gt;
+&lt;h3 id=&#34;example-from-gardeners-world&#34;&gt;Example from Gardener&amp;rsquo;s World&lt;/h3&gt;
+&lt;p&gt;Plant names can tell you more about the plant.
+Lavandula angustifolia &amp;lsquo;Nana Alba&amp;rsquo; has narrow leaves (angustifolia) and is compact (&amp;lsquo;Nana&amp;rsquo;) with white flowers (&amp;lsquo;Alba&amp;rsquo;).
+Here are some common words:&lt;/p&gt;
+&lt;h4 id=&#34;colour&#34;&gt;Colour&lt;/h4&gt;
+&lt;p&gt;alba/albus - white&lt;/p&gt;
+&lt;p&gt;caerulea/caeruleus - blue&lt;/p&gt;
+&lt;p&gt;coccinea/coccineus - scarlet&lt;/p&gt;
+&lt;p&gt;argentea - silver&lt;/p&gt;
+&lt;h4 id=&#34;habitat&#34;&gt;Habitat&lt;/h4&gt;
+&lt;p&gt;alpina/alpinus - alpine&lt;/p&gt;
+&lt;p&gt;campestris - field&lt;/p&gt;
+&lt;p&gt;maritima - coastal&lt;/p&gt;
+&lt;p&gt;montana - mountain&lt;/p&gt;
+&lt;p&gt;pratensis - meadow&lt;/p&gt;
+&lt;p&gt;sylvatica - forest&lt;/p&gt;
+&lt;h4 id=&#34;characteristics&#34;&gt;Characteristics&lt;/h4&gt;
+&lt;p&gt;angustifolia - narrow leaves&lt;/p&gt;
+&lt;p&gt;fragans/fragrantissima - scented&lt;/p&gt;
+&lt;p&gt;foetida/foetidus - smelly (unpleasant)&lt;/p&gt;
+&lt;p&gt;grandiflora - large-flowered&lt;/p&gt;
+&lt;p&gt;nana - small, compact&lt;/p&gt;
+&lt;p&gt;odorata - perfumed&lt;/p&gt;
+&lt;p&gt;officinalis - has herbal uses&lt;/p&gt;
+&lt;p&gt;tomentosum - hairy, downy&lt;/p&gt;
+&lt;h4 id=&#34;habit&#34;&gt;Habit&lt;/h4&gt;
+&lt;p&gt;columnaris - columnar&lt;/p&gt;
+&lt;p&gt;dentata - toothed&lt;/p&gt;
+&lt;p&gt;fruticosa - bushy&lt;/p&gt;
+&lt;p&gt;gracilis - slender&lt;/p&gt;
+&lt;p&gt;reptans - creeping&lt;/p&gt;
+&lt;p&gt;scandens - climbing&lt;/p&gt;
+&lt;h4 id=&#34;country-or-area-of-origin&#34;&gt;Country or area of origin&lt;/h4&gt;
+&lt;p&gt;chinensis - China&lt;/p&gt;
+&lt;p&gt;japonica - Japan&lt;/p&gt;
+&lt;p&gt;sibiricus - Siberia&lt;/p&gt;
+&lt;p&gt;occidentalis - America&lt;/p&gt;
+&lt;p&gt;orientalis - Asia&lt;/p&gt;</description>
+      </item>
+      
+    
+      
+      <item>
+        <title>A Note on Comic Books in My Collection</title>
+        <link>https://BenWhiteXXII.github.io/posts/2024/a-note-on-comic-books-in-my-collection/</link>
+        <pubDate>Wed, 10 Jan 2024 00:00:00 +0000</pubDate>
+        <author> </author>
+        <guid>https://BenWhiteXXII.github.io/posts/2024/a-note-on-comic-books-in-my-collection/</guid>
+        <description>&lt;p&gt;Over the past few days I&amp;rsquo;ve taken to reading comic books, specifically &lt;em&gt;Hellblazer&lt;/em&gt; and &lt;em&gt;Hellboy&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://BenWhiteXXII.github.io/images/FlamingHead.jpg&#34; alt=&#34;The flaming head!&#34;&gt;
+Since most comic books are published on a per issue basis, I was worried that &lt;a href=&#34;https://BenWhiteXXII.github.io/books&#34;&gt;my digital book collection&lt;/a&gt; would quickly become unreadable with the amount of issues that would pile up.
+For reference, my current system works like this:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;Book Title (Series name + place in series)&lt;/em&gt; - &lt;em&gt;Author Name&lt;/em&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;However, for comic books it&amp;rsquo;ll look like this:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;Series Title #Issue no.&lt;/em&gt; - &lt;em&gt;Author Name&lt;/em&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;That should tidy things up a bit.
+I mainly made this update so that I could add something to my blog for once, I&amp;rsquo;ve been feeling lately that I&amp;rsquo;m sleeping on its potential.
+I&amp;rsquo;ll try to upload a small blog post once a week going forward - like a book or movie review, or just a discussion about something on the web.&lt;/p&gt;
+&lt;p&gt;That&amp;rsquo;s it for now, happy new year!&lt;/p&gt;
+&lt;h2 id=&#34;addendum---180124&#34;&gt;ADDENDUM - 18/01/24&lt;/h2&gt;
+&lt;p&gt;This post has become pretty redundant since I switched to reading omnibuses for my comic fix (better on the bank account).
+I&amp;rsquo;ll still keep this small post up for the time being, just in case I do read any individual issues in the future.&lt;/p&gt;</description>
+      </item>
+      
+    
+      
+      <item>
+        <title>End of Year Book Roundup</title>
+        <link>https://BenWhiteXXII.github.io/posts/2024/end-of-year-book-roundup/</link>
+        <pubDate>Tue, 02 Jan 2024 00:00:00 +0000</pubDate>
+        <author> </author>
+        <guid>https://BenWhiteXXII.github.io/posts/2024/end-of-year-book-roundup/</guid>
+        <description>&lt;p&gt;A lot has happened to me this year and the books I&amp;rsquo;ve read certainly reflect that.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://BenWhiteXXII.github.io/images/ReadingCohen.jpg&#34; alt=&#34;A girl reading Cohen&#34;&gt;
+From self-help to Stephen King, from journalism to theatre, this eclectic mix represents me trying to find out what I love to read - and looking at the stats I&amp;rsquo;m not suprised.&lt;/p&gt;
+&lt;p&gt;The majority of the works I read were fiction, and the majority of those were fantasy.
+I was suprised to see that only a few of the late Pratchett&amp;rsquo;s books adorned my list, partly because of how much I love his work and how much of his work I bought this year (there&amp;rsquo;s an excellent antique store not far from my house that is always stocked up with his vintage paperbacks).&lt;/p&gt;
+&lt;p&gt;Smaller pagecounts seem to be a trend, with the odd brick sneeking in (I&amp;rsquo;m looking at you, &lt;em&gt;Babel&lt;/em&gt;). This&amp;rsquo;ll be a habit I hope to keep up as I hope to expand my horizons with sci-fi and shorter non-fiction texts in the new year.&lt;/p&gt;
+&lt;p&gt;Audiobooks were definitely a boon for me at the start of the year, which is why I came out swinging with so many books read and although I don&amp;rsquo;t note which books I listened to (as opposed to read) I may do in the future just so that I can keep track.&lt;/p&gt;
+&lt;p&gt;As we go down the list I can notice where my infactuation with older texts begins (around may) and is exaggerated by historical fiction and poetry.
+In December especially I dove into theatre, reading eveverything I could by the great Athenian tragic playwright Sophecles.
+This is something else I hope to keep up with in 2024 as I went a bit overboard in secondhand bookshops, buying up everything ancient Greek + Roman related I could afford.&lt;/p&gt;
+&lt;p&gt;Into the new year I hope to finish the Monkey Wrench Gang and move onto Howard Fishman&amp;rsquo;s &lt;em&gt;To Anyone Who Ever Asked&lt;/em&gt;, a biography about a mysterious singer-songwriter from the 1950s.
+After that I plan to re-read &lt;em&gt;Dune&lt;/em&gt; ready for the new movie in March.&lt;/p&gt;
+&lt;h2 id=&#34;ps&#34;&gt;P.S.&lt;/h2&gt;
+&lt;p&gt;I should add, for posterity&amp;rsquo;s sake, that I read 39 books.
+Not a bad number but I&amp;rsquo;m aiming for at least a book a week in 2024.
+Knowing my track record of sticking to goals, let&amp;rsquo;s see how that turns out.&lt;/p&gt;</description>
+      </item>
+      
+    
+      
+      <item>
+        <title>First Week</title>
+        <link>https://BenWhiteXXII.github.io/posts/2023/first-week/</link>
+        <pubDate>Thu, 21 Sep 2023 00:00:00 +0000</pubDate>
+        <author> </author>
+        <guid>https://BenWhiteXXII.github.io/posts/2023/first-week/</guid>
+        <description>&lt;p&gt;So my first week of college just wrapped up so I thought I&amp;rsquo;d share my thoughts about how it went down.&lt;/p&gt;
+&lt;h3 id=&#34;monday&#34;&gt;Monday&lt;/h3&gt;
+&lt;p&gt;Since I didn&amp;rsquo;t have my first Psychology class until the 18th I got to college just before my first Sociology, around 1230.
+You can check out my notes &lt;a href=&#34;https://github.com/BenWhiteXXII/College/tree/main&#34;&gt;here&lt;/a&gt; so I won&amp;rsquo;t go too in depth in what we covered but it felt good to finally discuss some interesting ideas with more people, however basic they may be.&lt;/p&gt;
+&lt;h3 id=&#34;tuesday&#34;&gt;Tuesday&lt;/h3&gt;
+&lt;p&gt;Had my first Study Skills class where we were taught what a paragraph was.
+I won&amp;rsquo;t say any more than that.&lt;/p&gt;
+&lt;h3 id=&#34;wednesday-and-thursday&#34;&gt;Wednesday and Thursday&lt;/h3&gt;
+&lt;p&gt;Didn&amp;rsquo;t have too much to do on these days, just work and writing up notes.&lt;/p&gt;
+&lt;h3 id=&#34;friday&#34;&gt;Friday&lt;/h3&gt;
+&lt;p&gt;First Eng. Lit. class and probably my most dreaded first lesson went really well!
+I won a pub quiz and got to briefly talk about one of my &lt;a href=&#34;./books&#34;&gt;favourite books&lt;/a&gt;, On Earth We&amp;rsquo;re Briefly Gorgeous.&lt;/p&gt;
+&lt;p&gt;Something kinda dramatic happened while I was writing this post; all my source files for my blog posts got deleted.
+I use Hugo for my formatting, mainly so I can focus on what I write instead of how (I might make a future post about this), but it messed up and cleared the directory when I went to make this new post.
+I&amp;rsquo;ve recovered a few posts but I really can&amp;rsquo;t be bothered to reconstruct some of my older posts.
+Luckily hugo only ammends my website directory and doesn&amp;rsquo;t delete any html files so they&amp;rsquo;ll still be up unless I change my mind.&lt;/p&gt;</description>
+      </item>
+      
+    
+      
+      <item>
+        <title>Plans Before College</title>
+        <link>https://BenWhiteXXII.github.io/posts/2023/plans-before-college/</link>
+        <pubDate>Tue, 22 Aug 2023 00:00:00 +0000</pubDate>
+        <author> </author>
+        <guid>https://BenWhiteXXII.github.io/posts/2023/plans-before-college/</guid>
+        <description>&lt;p&gt;I start college in little under a month so I thought it&amp;rsquo;d be a good idea to go over what I&amp;rsquo;m doing to ease myself back into education.&lt;/p&gt;
+&lt;p&gt;The tricky part about learning is that you never really stop, so this makes it tricky when trying to deliberately learn new things.
+Sure, with enough time anyone can learn anything, but if you misjudge the amount of precursoury knowledge required then you&amp;rsquo;re gonna be in for a rough time straight out the gate.
+That&amp;rsquo;s why I&amp;rsquo;m developing this post to remind myself what steps I can take and what I should do before I start my course in Septemeber.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;First (and Final) step: Read!&lt;/strong&gt;&lt;br&gt;
+That&amp;rsquo;s literally it. I&amp;rsquo;ll go into more detail later on but if you want the long and short of it, there you go.
+Reading now is so important because when I&amp;rsquo;m in college I&amp;rsquo;ll have to be doing it as much as possible, even if it&amp;rsquo;s just to bump up my personal statement.
+There&amp;rsquo;s always something new to read that&amp;rsquo;ll expand what I already knew.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;OK, so what to read?&lt;/strong&gt;&lt;br&gt;
+I&amp;rsquo;m gonna be real with you, my attention span is not great.
+This can be pretty frustrating if I&amp;rsquo;m trying to read.
+So if I want to read I&amp;rsquo;m going to have to be smart about it.
+This means getting the best info to word count ratio as possible.&lt;br&gt;
+But what book could possibly give me that?
+&lt;em&gt;Enter:&lt;/em&gt;
+&lt;img src=&#34;https://BenWhiteXXII.github.io/images/LitTheory.jpg&#34; alt=&#34;No Soap, Radio!&#34;&gt;
+Literary Theory: an anthology.
+A book with a stellar cover but its image is weakened by its academic title. The second edition goes for pretty cheap online so it&amp;rsquo;s well worth picking up a copy just to sit on your shelf and show everyone how smart you are. Beside the title, it has some great stuff inside. Take the fact that it has great historic works (Delueuze and Guattari&amp;rsquo;s &lt;em&gt;Anti-Oedipus&lt;/em&gt;, Hegel&amp;rsquo;s &lt;em&gt;The Science of Logic&lt;/em&gt;, Zizek&amp;rsquo;s &lt;em&gt;The Sublime Object of Ideology&lt;/em&gt;) all shortened down to the parts that matter. The book explains Marx&amp;rsquo;s theory of capital, Hegel&amp;rsquo;s dialectics, Freud&amp;rsquo;s theories of psychoanalysis and more in its one thousand page count. And, because it explains so much, the articles/ exerpts are relitively small, allowing for a few to be read in a day - without making your head spin thanks to its useful grouping of subjects so everything you&amp;rsquo;ve learned so far feeds into each other.&lt;/p&gt;
+&lt;p&gt;This book enables the first step of my plan: read one article a day before college, while trying to upload blog posts about what I read. This means that I&amp;rsquo;ll get used to this style of academic writing well before the course starts and I&amp;rsquo;ll have some clever ideas to bring up in essays. But this book alone isn&amp;rsquo;t going to help me ace any modern lit exams.&lt;/p&gt;</description>
+      </item>
+      
+    
+      
+      <item>
+        <title>First Steps With LMMS</title>
+        <link>https://BenWhiteXXII.github.io/posts/2023/first-steps-with-lmms/</link>
+        <pubDate>Tue, 27 Jun 2023 00:00:00 +0000</pubDate>
+        <author> </author>
+        <guid>https://BenWhiteXXII.github.io/posts/2023/first-steps-with-lmms/</guid>
+        <description>&lt;p&gt;I recently decided to start recording some of the songs I make with my acoustic guitar.
+The problem is that with my current setup anything I record sounds like shit.&lt;/p&gt;
+&lt;p&gt;I decided to get around this problem by using a DAW (Digital Audio Workstation) aka LMMS.
+It’s open source, like most software I use, and - more importantly - free.&lt;/p&gt;
+&lt;p&gt;It’s got a lot more tools than just recording input.
+It comes with samples that you can use right out the box and plenty of ways to manipulate them so that you can get the unique sound you’re after.&lt;/p&gt;
+&lt;p&gt;For example, &lt;a href=&#34;https://plugins4free.com/plugin/633/&#34;&gt;MeowSynth!&lt;/a&gt;
+Although LMMS doesn’t come with it straight out the box MeowSynth is a free to use VST (Virtual Studio Technology) that synthesises a real cat’s meow.
+I used it in the &lt;a href=&#34;music/meow.mp3&#34;&gt;first track I ever made.&lt;/a&gt;
+It’s very simple but I’m proud of it.&lt;/p&gt;
+&lt;p&gt;I’ll continue to post any cool tracks I make, even if it means kissing goodbye my invitation to the &lt;a href=&#34;https://1mb.club&#34;&gt;1mb club.&lt;/a&gt;&lt;/p&gt;</description>
+      </item>
+      
+    
+      
+    
   </channel>
 </rss>
