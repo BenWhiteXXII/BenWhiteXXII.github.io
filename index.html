@@ -151,6 +151,24 @@ code {
   
 
   
+    <article class="micropost">
+  
+    <p>I made an Instagram account for this blog: <a href="https://www.instagram.com/inscriptionatsalonae/">check it out!</a></p>
+
+    <a href='https://BenWhiteXXII.github.io/microposts/20250506_205605/'><aside class="dates">→ 2025/05/06 8:56 PM</aside></a>
+  
+</article>
+
+  
+
+  
+
+  
+
+
+  
+
+  
 
   
 
@@ -308,51 +326,6 @@ I&rsquo;ve been watching, reading, and listening to a lot of stuff recently so I
   
 
   
-
-  
-
-
-  
-
-  
-
-  
-
-  
-    <article class="post">
-  
-    <h2><a rel="full-article" href="https://BenWhiteXXII.github.io/posts/2025/20250403_182216/">How I upload to my blog</a></h2>
-  
-
-  <div class="postmeta">Posted on <time datetime='2025-04-03' pubdate="">April 3, 2025</time>
-    
-  </div>
-
-  <p>
-    
-      <p><img src="/images/headphones.jpg" alt="Statue wearing headphones"></p>
-<p>I use <a href="https://gohugo.io/">hugo</a> to build my blog from a bunch of Markdown files into a genuine static site.
-Since it&rsquo;s all local files I use Neovim and the command line to edit and update everything.</p>
-<h3 id="creating-a-new-post-micropost">Creating a new post/ micropost</h3>
-<p>I use this quick and dirty script to generate a new micropost:</p>
-<pre tabindex="0"><code>#!/bin/sh
-dt=$(date &#39;+%d%m%Y_%H%M%S&#39;)
-year=$(date &#39;+%Y&#39;)
-
-cd ~/path/to/website
-hugo new content/posts/$year/$dt.md
-st -e nvim content/posts/$year/$dt.md
-</code></pre><p>This makes a new micropost from my hugo template and opens a new terminal so that I can immediately edit it in Neovim. The script for regular posts is pretty much identical but it opens a different template so that I can fill in the title and chose whether or not to save it as a draft.
-Here&rsquo;s the script in action.</p>
-    
-  </p>
-
-  
-    
-      <a class="continue" rel="full-article" href="https://BenWhiteXXII.github.io/posts/2025/20250403_182216/">Continue Reading »</a>
-    
-  
-</article>
 
   
 
