@@ -1,13 +1,13 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>INSCRIPTION AT SALONAE - Posts</title>
-    <link>https://BenWhiteXXII.github.io/https://BenWhiteXXII.github.io/posts/</link>
-    <description>All entries in Posts on INSCRIPTION AT SALONAE</description>
+    <title>INSCRIPTION AT SALONAE - Recipe</title>
+    <link>https://BenWhiteXXII.github.io/https://BenWhiteXXII.github.io/tags/recipe/</link>
+    <description>All entries in Recipe on INSCRIPTION AT SALONAE</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
     <lastBuildDate>Thu, 04 Sep 2025 22:11:31 +0100</lastBuildDate>
-    <atom:link href="https://BenWhiteXXII.github.io/posts/" rel="self" type="application/rss+xml" />
+    <atom:link href="https://BenWhiteXXII.github.io/tags/recipe/" rel="self" type="application/rss+xml" />
     
       
     
