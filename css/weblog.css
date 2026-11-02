@@ -6,7 +6,7 @@ body {
 
 a[href] {
   text-decoration: none;
-  color: #404040;
+  color: #404060;
 }
 
 a:hover {
@@ -18,7 +18,10 @@ h1, h2, h3, h4 {
 }
 
 img {
-  width: 780px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
 }
 
 blockquote {
